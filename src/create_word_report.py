@@ -201,9 +201,9 @@ def build_full_report():
     tbl_students = doc.add_table(rows=3, cols=2)
     tbl_students.alignment = WD_TABLE_ALIGNMENT.CENTER
     tbl_students.rows[0].cells[0].paragraphs[0].add_run("Student Name:\nTeam Member 1:\nTeam Member 2:")
-    tbl_students.rows[0].cells[1].paragraphs[0].add_run("\n[Team Member 1 Name]\n[Team Member 2 Name]")
+    tbl_students.rows[0].cells[1].paragraphs[0].add_run("\nMD IQBAL\n[Team Member 2 Name]")
     tbl_students.rows[1].cells[0].paragraphs[0].add_run("USN:\nTeam Member 1:\nTeam Member 2:")
-    tbl_students.rows[1].cells[1].paragraphs[0].add_run("\n1BM23AI...\n1BM23AI...")
+    tbl_students.rows[1].cells[1].paragraphs[0].add_run("\n1BM23AI099\n1BM23AI...")
     tbl_students.rows[2].cells[0].paragraphs[0].add_run("Semester & Section:")
     tbl_students.rows[2].cells[1].paragraphs[0].add_run("7 B")
     for r in tbl_students.rows:
