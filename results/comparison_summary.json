@@ -1,0 +1,70 @@
+{
+    "Table8_Performance": {
+        "Accuracy": {
+            "Baseline": "82.80%",
+            "Transformer": "94.00%",
+            "Diff": "+11.20%"
+        },
+        "Macro Precision": {
+            "Baseline": "83.16%",
+            "Transformer": "94.64%",
+            "Diff": "+11.48%"
+        },
+        "Macro Recall": {
+            "Baseline": "82.80%",
+            "Transformer": "94.00%",
+            "Diff": "+11.20%"
+        },
+        "Macro F1-score": {
+            "Baseline": "82.75%",
+            "Transformer": "93.98%",
+            "Diff": "+11.23%"
+        },
+        "Weighted F1-score": {
+            "Baseline": "82.75%",
+            "Transformer": "93.98%",
+            "Diff": "+11.23%"
+        },
+        "Hallucinated F1": {
+            "Baseline": "81.86%",
+            "Transformer": "94.34%",
+            "Diff": "+12.48%"
+        },
+        "Factual F1": {
+            "Baseline": "83.65%",
+            "Transformer": "93.62%",
+            "Diff": "+9.97%"
+        },
+        "Training Time": {
+            "Baseline": "0.01 s",
+            "Transformer": "Pre-trained checkpoint",
+            "Diff": "-"
+        },
+        "Inference Latency": {
+            "Baseline": "0.0013 ms/pair",
+            "Transformer": "3.37 ms/pair",
+            "Diff": "\u2248 2592x slower"
+        }
+    },
+    "Table9_ConfusionMatrix": {
+        "TF-IDF + LR": {
+            "TN": 194,
+            "FP": 56,
+            "FN": 30,
+            "TP": 220
+        },
+        "DistilRoBERTa": {
+            "TN": 250,
+            "FP": 0,
+            "FN": 30,
+            "TP": 220
+        }
+    },
+    "Agreement_Stats": {
+        "Both Correct": 414,
+        "Only Transformer": 56,
+        "Only Baseline": 0,
+        "Both Wrong": 30,
+        "Total": 500
+    }
+}

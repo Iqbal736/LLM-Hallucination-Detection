@@ -1,0 +1,54 @@
+[
+    {
+        "Case": "TC-1",
+        "Category": "Clearly factual paraphrase",
+        "Context": "On September 14, 2015, the LIGO observatory made the first direct physical detection of gravitational waves produced by merging black holes.",
+        "Generation": "LIGO detected physical ripples in spacetime from colliding black holes in September 2015.",
+        "Expected": "Factual / Grounded",
+        "Baseline_Label": "Factual / Grounded",
+        "Baseline_Conf": "69.0%",
+        "Transformer_Label": "Factual / Grounded",
+        "Transformer_Conf": "52.9%",
+        "Agreement": true,
+        "Lexical_Coverage": "50.0%"
+    },
+    {
+        "Case": "TC-2",
+        "Category": "Direct contradiction / Polarity flip",
+        "Context": "Metformin decreases hepatic glucose production and increases insulin sensitivity in peripheral tissues.",
+        "Generation": "Metformin significantly increases hepatic glucose production and induces severe insulin resistance.",
+        "Expected": "Hallucinated",
+        "Baseline_Label": "Factual / Grounded",
+        "Baseline_Conf": "74.5%",
+        "Transformer_Label": "Hallucinated",
+        "Transformer_Conf": "99.9%",
+        "Agreement": false,
+        "Lexical_Coverage": "63.64%"
+    },
+    {
+        "Case": "TC-3",
+        "Category": "High-overlap entity swap",
+        "Context": "The Apollo 11 lunar module Eagle touched down on the Moon on July 20, 1969, carrying Neil Armstrong and Buzz Aldrin.",
+        "Generation": "The Apollo 11 lunar module Eagle touched down on the Moon on July 20, 1969, carrying Neil Armstrong and Michael Collins.",
+        "Expected": "Hallucinated",
+        "Baseline_Label": "Hallucinated",
+        "Baseline_Conf": "95.6%",
+        "Transformer_Label": "Hallucinated",
+        "Transformer_Conf": "99.3%",
+        "Agreement": true,
+        "Lexical_Coverage": "89.47%"
+    },
+    {
+        "Case": "TC-4",
+        "Category": "Numerical / Temporal fabrication",
+        "Context": "Base editing was developed by David Liu's laboratory in 2016 without requiring double-stranded DNA breaks.",
+        "Generation": "Base editing was developed by David Liu's laboratory in 1985 without requiring double-stranded DNA breaks.",
+        "Expected": "Hallucinated",
+        "Baseline_Label": "Hallucinated",
+        "Baseline_Conf": "87.1%",
+        "Transformer_Label": "Hallucinated",
+        "Transformer_Conf": "99.8%",
+        "Agreement": true,
+        "Lexical_Coverage": "94.12%"
+    }
+]

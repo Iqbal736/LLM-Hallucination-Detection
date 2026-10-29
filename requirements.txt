@@ -1,0 +1,15 @@
+# Natural Language Processing for LLM (24AM7PCLLM)
+# AAT Project: Automated Hallucination & Factual Consistency Detection in LLM Generations
+# Architecture: TF-IDF + Logistic Regression vs. DeBERTa Cross-Encoder
+
+transformers>=4.40.0
+datasets>=2.18.0
+scikit-learn>=1.4.0
+torch>=2.2.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+streamlit>=1.30.0
+joblib>=1.3.0
+

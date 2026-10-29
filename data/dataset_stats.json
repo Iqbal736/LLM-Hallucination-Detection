@@ -1,0 +1,11 @@
+{
+    "Source": "Curated Multi-Domain Scientific & Historical Factuality Benchmark",
+    "Total pairs used": 5000,
+    "Classes": "2 \u2013 Hallucinated (0), Factual (1)",
+    "Mean generation length": "17.0 words (121 characters)",
+    "Median generation length": "17 words",
+    "Shortest / longest generation": "12 words / 24 words",
+    "Train pairs": 4000,
+    "Validation pairs": 500,
+    "Test pairs (Held-out)": 500
+}
