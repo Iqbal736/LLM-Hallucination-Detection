@@ -89,8 +89,8 @@ The project evaluated hand-crafted adversarial edge cases representing subtle li
 ### 1. Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/IQBAL448/<repository-name>.git
-cd <repository-name>
+git clone https://github.com/Iqbal736/LLM-Hallucination-Detection.git
+cd LLM-Hallucination-Detection
 pip install -r requirements.txt
 ```
 
